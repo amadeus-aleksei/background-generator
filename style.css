@@ -32,3 +32,8 @@ h3 {
     letter-spacing: .1em;
     word-spacing: 2em;
 }
+
+#second {
+    word-spacing: .5rem;
+    letter-spacing: 0;
+}
