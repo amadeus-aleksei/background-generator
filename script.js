@@ -5,6 +5,8 @@ var color2 = document.querySelector(".color2");
 var body = document.querySelector("body");
 var button = document.querySelector("button");
 
+body.style.background="linear-gradient(to right, "+color1.value
+        +", "+color2.value+")";
 h3First.textContent=color1.value + " " + color2.value;
 h3Second.textContent="{ background:linear-gradient(to right, "
 +color1.value+", "+color2.value+"); }";
