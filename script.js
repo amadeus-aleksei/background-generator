@@ -32,6 +32,8 @@ button.addEventListener("click", function(event){
     color2.value = "#ffffff";
     body.style.background='linear-gradient(to right, '+color1.value
     +", "+color2.value+")";
-    h3.textContent=color1.value + " " + color2.value;
+    h3First.textContent=color1.value + " " + color2.value;
+    h3Second.textContent="{ background:linear-gradient(to right, "
+        +color1.value+", "+color2.value+"); }";
 })
 
