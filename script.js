@@ -7,6 +7,7 @@ var button = document.querySelector("button");
 h3.textContent=color1.value + " " + color2.value;
 
 color1.addEventListener("input", function(){
+    console.log(color1.value);
     body.style.background="linear-gradient(to right, "+color1.value
         +", "+color2.value+")";
         h3.textContent=color1.value + " " + color2.value;
