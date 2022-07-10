@@ -19,4 +19,10 @@ color2.addEventListener("input", function(){
 
 button.addEventListener("click", function(event){
     console.log(event);
+    color1.value = "#ffffff";
+    color2.value = "#ffffff";
+    body.style.background='linear-gradient(to right, '+color1.value
+    +", "+color2.value+")";
 })
+
+h3.textContent=color1.value + " " + color2.value;
